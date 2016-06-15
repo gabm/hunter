@@ -10,6 +10,17 @@ hunter_add_version(
   PACKAGE_NAME
   Protobuf
   VERSION
+  "2.6.1"
+  URL
+  "https://github.com/gabm/protobuf-cmake/archive/v2.6.1.tar.gz"
+  SHA1
+  8dcbff609406a2f1c150dc8a73bffcbdaddbefd7
+  )
+
+hunter_add_version(
+  PACKAGE_NAME
+  Protobuf
+  VERSION
   "3.0.0-beta-2"
   URL
   "https://github.com/hunter-packages/protobuf/archive/v3.0.0-beta-2-hunter-1.tar.gz"
